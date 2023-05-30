@@ -53,18 +53,18 @@ const Buy = () => {
                 <IconButton> <TrainIcon fontSize="large" /> </IconButton>
             </Box>
 
-                <div className="contenedorcarfiltro">
-                    <div className="contenedorfiltros">
-                        <Filters />
-                    </div>
-                    <div className="contenedorcar">
-                    { dataArray && dataArray.map((i , index) =>
-                            <Vehicle
-                                data = {i}
-                            />
-                    )}
-                    </div>
+            <div className="contenedorcarfiltro">
+                <div className='contenedorfiltros'>
+                    <Filters />
                 </div>
+                <div className='contenedorcar'>
+                    { dataArray && dataArray.map((i , index) =>
+                        <Vehicle
+                            data = {i}
+                        />
+                    )}
+                </div>
+            </div>
 
             <Box sx={{ display: 'flex', justifyContent: 'center' }}>
                 <Button sx={{ marginTop: '30px' }} size="large" variant="contained" component={CustomLink} to="/">

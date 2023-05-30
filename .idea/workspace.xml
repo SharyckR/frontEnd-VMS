@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22711f58-4c63-4408-8b81-ec734baadfce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="22711f58-4c63-4408-8b81-ec734baadfce" name="Changes" comment="Conexión de Backlog con Frontend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Buy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MyShopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MyShopping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,24 +95,24 @@
       <workItem from="1685283601380" duration="26898000" />
       <workItem from="1685330925134" duration="2865000" />
       <workItem from="1685370734191" duration="24367000" />
-      <workItem from="1685408370754" duration="28625000" />
+      <workItem from="1685408370754" duration="35667000" />
     </task>
+    <task id="LOCAL-00001" summary="Conexión de Backlog con Frontend">
+      <created>1685443137001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685443137001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/pages/Purchase.js</url>
-          <line>51</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Conexión de Backlog con Frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conexión de Backlog con Frontend" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

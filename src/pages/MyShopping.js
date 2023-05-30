@@ -25,13 +25,10 @@ const MyShopping = () => {
     },[])
 
     return (
-        <div>
-            <div className="contenedorcarfiltro">
-                <div className='contenedorfilter'>
-                    <h2>Advertisement</h2>
-                    <RenaultAdvertisement/>
-                </div>
-                <div className='contenedorcar'>
+        <div >
+
+            <div>
+                <div className='carcontainer'>
                     { dataArray && dataArray.map((i , index) =>
                         <VehicleShopping
                             data = {i}

@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom"
+import NavBar from "./components/NavBar"
+import Home from "./pages/Home"
+import MyShopping from "./pages/MyShopping"
+import Sell from "./pages/Sell";
+import Buy from "./pages/Buy";
+import Compare from "./pages/Compare";
+import Purchase from "./pages/Purchase";
+import BuyerInformation from "./pages/BuyerInformation";
+import Payment from "./pages/Payment";
+import PurchaseConfirm from "./pages/PurchaseConfirm";
+import DeliveryTracking from "./pages/DeliveryTracking";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+        <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/myshopping" element={<MyShopping />} />
+            <Route path="/sell" element={<Sell />} />
+            <Route path="/buy" element={<Buy />} />
+            <Route path="/buyerinformation/:id" element={<BuyerInformation />} />
+            <Route path="/compare" element={<Compare />} />
+            <Route path="/purchase/:id" element={<Purchase />} />
+            <Route path="/payment/:id" element={<Payment />} />
+            <Route path="/purchaseconfirm/:id" element={<PurchaseConfirm />} />
+            <Route path="/deliverytracking" element={<DeliveryTracking />} />
+            <Route path="/sell" element={<sell />} />
+          </Routes>
+
+      </>
+  )
 }
 
-export default App;
+export default App

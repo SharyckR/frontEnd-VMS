@@ -1,0 +1,20 @@
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-item {
+    display: flex;
+    align-items: center;
+}
+
+.right-item{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.site-title {
+    margin: 0 auto;
+}
